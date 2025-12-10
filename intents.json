@@ -1,0 +1,264 @@
+{
+  "intents": [
+    {
+      "tag": "common_cold",
+      "patterns": [
+        "I have a runny nose and sneezing",
+        "My throat is sore and I keep coughing",
+        "I have nasal congestion and mild fever",
+        "I feel tired with a headache and cough",
+        "My nose is blocked and I keep sneezing"
+      ],
+      "responses": [
+        "You may have the common cold. Stay hydrated, rest well, and take steam inhalation. Consult a doctor if it persists more than a week."
+      ]
+    },
+    {
+      "tag": "flu",
+      "patterns": [
+        "I have high fever and body aches",
+        "I feel chills and my muscles hurt",
+        "I am shivering with cough and sore throat",
+        "My body feels weak with fever and runny nose",
+        "I have fatigue, cough, and headache"
+      ],
+      "responses": [
+        "It seems like you might have the flu. Drink plenty of fluids, get rest, and consult a doctor if symptoms worsen."
+      ]
+    },
+    {
+      "tag": "migraine",
+      "patterns": [
+        "I have a throbbing headache on one side",
+        "My head hurts badly and I feel nauseous",
+        "Light makes my headache worse",
+        "I feel sensitivity to noise and light with headache",
+        "I get frequent severe headaches"
+      ],
+      "responses": [
+        "You may be experiencing a migraine. Avoid bright lights, get rest, and consult a doctor for proper medication."
+      ]
+    },
+    {
+      "tag": "diabetes",
+      "patterns": [
+        "I feel thirsty all the time and urinate often",
+        "I am losing weight without trying",
+        "I feel very tired and hungry frequently",
+        "My vision is blurry and I have slow-healing wounds",
+        "I have frequent urination and increased thirst"
+      ],
+      "responses": [
+        "These symptoms are related to diabetes. Please consult a healthcare professional for blood sugar testing and medical advice."
+      ]
+    },
+    {
+      "tag": "hypertension",
+      "patterns": [
+        "I get frequent headaches and dizziness",
+        "I feel chest discomfort and blurred vision",
+        "My blood pressure readings are always high",
+        "I feel shortness of breath with anxiety",
+        "Sometimes I feel pounding in my ears or neck"
+      ],
+      "responses": [
+        "You may have high blood pressure. Reduce salt intake, manage stress, and consult your doctor for a proper checkup."
+      ]
+    },
+    {
+      "tag": "asthma",
+      "patterns": [
+        "I have trouble breathing and wheezing",
+        "I feel tightness in my chest and shortness of breath",
+        "I cough especially at night or after exercise",
+        "My breathing becomes difficult in cold air",
+        "I use an inhaler for my breathing problem"
+      ],
+      "responses": [
+        "You might be experiencing asthma symptoms. Avoid triggers, use prescribed inhalers, and visit your doctor regularly."
+      ]
+    },
+    {
+      "tag": "anemia",
+      "patterns": [
+        "I feel tired and weak all the time",
+        "I get dizzy when I stand up",
+        "My skin looks pale and I have cold hands",
+        "I feel short of breath and fatigued",
+        "I have brittle nails and low energy"
+      ],
+      "responses": [
+        "You might be anemic. Eat iron-rich foods like spinach and consult your doctor for a blood test."
+      ]
+    },
+    {
+      "tag": "covid19",
+      "patterns": [
+        "I have loss of smell and taste",
+        "I am coughing with fever and sore throat",
+        "I have body pain, fatigue, and dry cough",
+        "I am experiencing breathing difficulty and fever",
+        "I was in contact with someone who tested positive"
+      ],
+      "responses": [
+        "These symptoms could indicate COVID-19. Please isolate yourself and get tested immediately. Consult a healthcare provider for further steps."
+      ]
+    },
+    {
+      "tag": "allergy",
+      "patterns": [
+        "My eyes are itchy and watery",
+        "I sneeze frequently when I go outside",
+        "I have skin rashes and itching",
+        "I get congestion when near dust or pollen",
+        "My nose runs whenever I clean the house"
+      ],
+      "responses": [
+        "You might be having an allergic reaction. Try to avoid allergens and consider taking antihistamines after consulting a doctor."
+      ]
+    },
+    {
+      "tag": "food_poisoning",
+      "patterns": [
+        "I have stomach pain and vomiting",
+        "I feel nauseous after eating food",
+        "I have diarrhea and cramps",
+        "I ate outside food and now I feel sick",
+        "I feel weak and dehydrated after vomiting"
+      ],
+      "responses": [
+        "You may have food poisoning. Stay hydrated and eat light. If symptoms persist, consult a doctor immediately."
+      ]
+    },
+    {
+      "tag": "depression",
+      "patterns": [
+        "I feel sad and hopeless most of the time",
+        "I have lost interest in activities I used to enjoy",
+        "I can't sleep properly and I feel tired all the time",
+        "I feel worthless and unmotivated",
+        "I am always anxious and avoid people"
+      ],
+      "responses": [
+        "You may be showing signs of depression. It’s important to talk to a mental health professional or counselor for help."
+      ]
+    },
+    {
+      "tag": "anxiety",
+      "patterns": [
+        "I feel nervous and restless often",
+        "My heart beats fast and I sweat without reason",
+        "I worry too much and can't relax",
+        "I have difficulty sleeping due to racing thoughts",
+        "I panic in crowded places"
+      ],
+      "responses": [
+        "These could be symptoms of anxiety. Practice relaxation, breathing exercises, and seek advice from a mental health expert."
+      ]
+    },
+    {
+      "tag": "typhoid",
+      "patterns": [
+        "I have prolonged fever and abdominal pain",
+        "I feel weak and have loss of appetite",
+        "I am suffering from headache and diarrhea",
+        "My temperature remains high for days",
+        "I feel nausea and stomach discomfort"
+      ],
+      "responses": [
+        "You may have typhoid fever. Drink boiled water and consult a doctor for a proper diagnosis and antibiotic treatment."
+      ]
+    },
+    {
+      "tag": "dengue",
+      "patterns": [
+        "I have high fever and severe joint pain",
+        "I am suffering from headache and pain behind eyes",
+        "I have skin rashes and vomiting",
+        "My platelets count is low",
+        "I feel weakness after mosquito bites"
+      ],
+      "responses": [
+        "These symptoms suggest dengue fever. Get a blood test and consult a doctor immediately. Drink fluids and rest well."
+      ]
+    },
+    {
+      "tag": "malaria",
+      "patterns": [
+        "I have high fever with chills and sweating",
+        "I get shivering followed by fever",
+        "I feel nauseous with headache and fatigue",
+        "I have muscle pain and vomiting",
+        "I was bitten by mosquitoes recently and feel weak"
+      ],
+      "responses": [
+        "You may be suffering from malaria. Please get a blood test and consult your doctor for antimalarial treatment."
+      ]
+    },
+    {
+      "tag": "heart_attack",
+      "patterns": [
+        "I feel chest pain spreading to my left arm",
+        "I have shortness of breath and sweating",
+        "I feel pressure in my chest and nausea",
+        "I have sudden dizziness and fatigue",
+        "I feel tightness and pain in the upper body"
+      ],
+      "responses": [
+        "This could be a serious sign of a heart attack. Please seek emergency medical help immediately!"
+      ]
+    },
+    {
+      "tag": "stroke",
+      "patterns": [
+        "I feel numbness on one side of my body",
+        "I have trouble speaking and understanding",
+        "I suddenly lost balance and coordination",
+        "My vision is blurred or lost in one eye",
+        "My face feels droopy on one side"
+      ],
+      "responses": [
+        "This could indicate a stroke. Seek emergency medical attention immediately."
+      ]
+    },
+    {
+      "tag": "stomach_ulcer",
+      "patterns": [
+        "I have burning stomach pain especially when empty",
+        "I feel bloated and nauseous after eating",
+        "I get heartburn and indigestion frequently",
+        "I vomit sometimes and feel full quickly",
+        "My stomach hurts after taking painkillers"
+      ],
+      "responses": [
+        "These may be signs of a stomach ulcer. Avoid spicy food and consult a gastroenterologist for treatment."
+      ]
+    },
+    {
+      "tag": "skin_infection",
+      "patterns": [
+        "I have redness and itching on my skin",
+        "My skin has pus-filled bumps",
+        "I have rashes and irritation on my arm",
+        "There is swelling and warmth on my skin",
+        "I have small painful boils"
+      ],
+      "responses": [
+        "You might have a skin infection. Keep the area clean, avoid scratching, and consult a dermatologist if it worsens."
+      ]
+    },
+    {
+      "tag": "arthritis",
+      "patterns": [
+        "My joints are stiff and painful",
+        "I have swelling and redness in my knees",
+        "I find it hard to move my fingers",
+        "My joints ache more in the morning",
+        "I feel stiffness after sitting for long"
+      ],
+      "responses": [
+        "These could be symptoms of arthritis. Exercise gently, maintain a healthy weight, and visit an orthopedic doctor."
+      ]
+    }
+  ]
+}
